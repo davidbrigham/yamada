@@ -1,0 +1,6 @@
+.box {
+	height: 50vh;
+	width: 50vw;
+	background-color: blue;
+	border-radius: 5px;
+}
