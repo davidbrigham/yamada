@@ -1,15 +1,16 @@
+/*
 $(document).ready(function(){
-	$('div').mouseenter(function() {
+	$('.box').mouseenter(function() {
        $(this).animate({
            height: '+=10vh'
        });
    });
-   $('div').mouseleave(function() {
+   $('.box').mouseleave(function() {
        $(this).animate({
            height: '-=10vh'
        }); 
    });
-   $('div').click(function() {
+   $('.box').click(function() {
        $(this).toggle(1000);
    }); 
 })
