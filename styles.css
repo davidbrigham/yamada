@@ -2,8 +2,12 @@ body {
 	background-color: darkgrey;
 }
 .box {
-	height: 50vh;
-	width: 50vw;
 	background-color: blue;
 	border-radius: 5px;
+	box-shadow: 10px 10px 5px #888888;
+	height: 50vh;
+	padding: 20px;
+	margin: auto;
+	text-align: center;
+	width: 80vw;
 }
