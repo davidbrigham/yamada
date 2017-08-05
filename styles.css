@@ -1,8 +1,12 @@
+li a.active {
+    background-color: #4CAF50;
+    color: white;
+}
 body {
-	background-color: #000000;
 	background-color: darkgrey;
 }
 .box {
+	display: none;
 	background-color: blue;
 	border-radius: 5px;
 	box-shadow: 10px 10px 5px #888888;
@@ -11,4 +15,28 @@ body {
 	margin: auto;
 	text-align: center;
 	width: 80vw;
+}
+li {
+	float: left;
+}
+li a {
+	display: block;
+	text-align: center;
+	width: 18vw;
+	padding: 1vh 1vw;
+	text-decoration: none;
+}
+/* Change the link color on hover */
+li a:hover {
+    background-color: #555;
+    color: white;
+}
+
+ul {
+	background-color: red;
+	border: 1px solid #000;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	width: 20vw;
 }
