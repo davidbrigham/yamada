@@ -1,30 +1,62 @@
+/*
+COLOR SCHEMA
 
+purple        #9745CC
+dark purple   #584A61
+bluish purple #675DFF
+Yellow        #FFE9A9
+tan           #CC9C45
+
+
+ */
+/* Main Body */
+
+article {
+	background-color: #FFE9A9;
+	border-radius: 5px;
+	box-shadow: 10px 10px #584a61;
+	padding: 1vh 3vw;
+	margin: auto;
+	line-height: 1.5em;
+	width: 80vw;
+}
 body {
-	background-color: darkgrey;
+	background-color: #CC9C45;
 	margin: 0;
 	padding: 0;
+	padding-top: 10px;
 }
-/*
+
+header {
+	background-color: #000;
+	color: #9745CC;
+	margin: 2vh auto;
+	text-align: center;
+	width: 80vw;
+}
+/* JQuery Box */
+
 .box {
-	display: none;
-	background-color: blue;
+	background-color: #fff;
 	border-radius: 5px;
-	box-shadow: 10px 10px 5px #888888;
+	box-shadow: 10px 10px 5px #584a61;
 	height: 50vh;
 	padding: 20px;
 	margin: auto;
 	text-align: center;
-	width: 80vw;
+	width: 90vw;
 }
-*/
+
+/* navigation */
+
 li a.active {
-    background-color: #4CAF50;
+    background-color: #;
     color: white;
 }
 
 li {
-	display: inline;
-	width: 105vw;
+	display: inline-block;
+	width: 19vw;
 }
 
 li:last-child {
@@ -32,22 +64,26 @@ li:last-child {
 }
 
 li a {
+	background-color: #584A61;
+	border-radius: 15px;
 	display: block;
+	padding: 3vh;
+	color: #FFF;
 	text-align: center;
 	text-decoration: none;
 }
 /* Change the link color on hover */
 li a:hover {
-    background-color: #555;
+    background-color: #675DFF;
     color: white;
 }
 
 
 ul {
-	background-color: lightgrey;
-	border: 1px solid #000;
+	background-color: transparent;
 	list-style-type: none;
 	margin: 0;
+	margin-bottom: 5px;
 	overflow: auto;
 	padding: 0;
 	width: 100vw;

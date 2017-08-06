@@ -1,4 +1,3 @@
-/*
 $(document).ready(function(){
 	$('.box').mouseenter(function() {
        $(this).animate({
