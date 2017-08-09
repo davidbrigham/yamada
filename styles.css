@@ -30,6 +30,8 @@ body {
 header {
 	background-color: #000;
 	color: #9745CC;
+	font-size: 8vh;
+	height: 10vh;
 	margin: 2vh auto;
 	text-align: center;
 	width: 80vw;
