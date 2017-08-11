@@ -36,6 +36,14 @@ header {
 	text-align: center;
 	width: 80vw;
 }
+
+img{
+  width: auto;
+  max-width: 90vw;
+  height: auto;
+  max-height: 50vh;
+}
+
 /* JQuery Box */
 
 .box {
