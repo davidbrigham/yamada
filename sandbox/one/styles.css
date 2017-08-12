@@ -1,0 +1,97 @@
+/*
+COLOR SCHEMA
+
+purple        #9745CC
+dark purple   #584A61
+bluish purple #675DFF
+Yellow        #FFE9A9
+tan           #CC9C45
+
+
+ */
+/* Main Body */
+
+body {
+	background-color: #CC9C45;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background-color: #FFE9A9;
+	border-radius: 5px;
+	border: 1px solid grey;
+	box-shadow: 5px 5px 15px #000;
+	color: #9745CC;
+	font-size: 8vh;
+	height: 10vh;
+	margin: 3vh auto;
+	text-align: center;
+	width: 80vw;
+}
+
+img{
+	box-sizing: border-box;
+  box-shadow: 0px 0px 15px #000;
+  width: auto;
+  max-width: 90vw;
+  height: auto;
+  max-height: 50vh;
+}
+
+/* JQuery Box */
+
+.box {
+	background-color: #FFE9A9;
+	border-radius: 5px;
+	box-shadow: 1px 1px 15px #000;
+	display: inline-block;
+	height: 50vh;
+	padding: 20px;
+	text-align: center;
+	width: 60vw;
+}
+
+/* navigation */
+
+li a.active {
+    background-color: #FFE9A9;
+    color: white;
+}
+
+li {
+	
+}
+
+li:last-child {
+	border-bottom: none;
+}
+
+li a {
+	background-color: #584A61;
+	border-radius: 15px;
+	display: block;
+	padding: 3vh;
+	color: #FFF;
+	text-align: center;
+	text-decoration: none;
+}
+/* Change the link color on hover */
+li a:hover {
+    background-color: #675DFF;
+    border-radius: 15px;
+    box-shadow: 3px 3px 5px #000;
+    color: #000;
+}
+
+
+ul {
+	background-color: transparent;
+	display: inline-block;
+	list-style-type: none;
+	margin: 0;
+	margin-bottom: 15px;
+	overflow: auto;
+	padding: 0;
+	width: 19vw;
+}
