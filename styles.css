@@ -16,7 +16,7 @@ article {
 	border-radius: 5px;
 	box-shadow: 10px 10px #584a61;
 	padding: 1vh 3vw;
-	margin: auto;
+	margin: 10px auto;
 	line-height: 1.5em;
 	width: 80vw;
 }
@@ -31,7 +31,7 @@ header {
 	background-color: #FFE9A9;
 	border-radius: 5px;
 	border: 1px solid grey;
-	box-shadow: 10px 10px 15px #000;
+	box-shadow: 5px 5px 15px #000;
 	color: #9745CC;
 	font-size: 8vh;
 	height: 10vh;
@@ -65,7 +65,7 @@ img{
 /* navigation */
 
 li a.active {
-    background-color: #;
+    background-color: #FFE9A9;
     color: white;
 }
 
@@ -90,7 +90,9 @@ li a {
 /* Change the link color on hover */
 li a:hover {
     background-color: #675DFF;
-    color: white;
+    border-radius: 15px;
+    box-shadow: 3px 3px 5px #000;
+    color: #000;
 }
 
 
@@ -98,7 +100,7 @@ ul {
 	background-color: transparent;
 	list-style-type: none;
 	margin: 0;
-	margin-bottom: 5px;
+	margin-bottom: 15px;
 	overflow: auto;
 	padding: 0;
 	width: 100vw;
